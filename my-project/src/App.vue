@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/cbc.jpg">
+    <img src="./assets/cbc.jpg" class="logo">
     <router-view/>
   </div>
 </template>
@@ -19,5 +19,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background-color: #a3d9cc;
+}
+.logo {
+  width: 400px;
 }
 </style>
